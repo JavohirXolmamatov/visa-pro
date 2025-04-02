@@ -4,7 +4,7 @@ import i18n from "./i18n";
 function App() {
   const { t, i18n } = useTranslation();
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth relative">
       <header className="">
         <Header />
       </header>

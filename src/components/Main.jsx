@@ -35,7 +35,7 @@ import { FaTelegram } from "react-icons/fa6";
 import { FaCirclePlus } from "react-icons/fa6";
 import { MdSecurity } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
-import { Input, MyMap, Slider2, Button } from "./index";
+import { Input, MyMap, Slider2, Button, Modal } from "./index";
 import axios from "axios";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
@@ -55,6 +55,7 @@ function Main() {
   const [btnValue, setBtnValue] = useState({
     btn: t("text.text1"),
   });
+  const [modal, setModal] = useState(false);
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -78,7 +79,7 @@ function Main() {
         text: message,
       },
     })
-      .then(() => alert("Successfully send Message"))
+      .then(() => setModal(true))
       .catch((e) => {
         console.log(error);
       });
@@ -90,7 +91,7 @@ function Main() {
   };
   return (
     <div
-      className="pt-[80px] w-full md:h-screen h-[500px]  bg-no-repeat bg-cover bg-center"
+      className="pt-[80px] w-full md:h-screen h-[500px]  bg-no-repeat bg-cover bg-center relative"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundRepeat: "no-repeat",
@@ -554,7 +555,7 @@ function Main() {
       </section>
 
       {/* aloqa */}
-      <section className="w-full bg-black h-auto" id="contact">
+      <section className="w-full bg-black h-auto " id="contact">
         <div className="md:grid md:grid-cols-9 flex flex-col gap-10 md:w-8/10 w-9/10 mx-auto text-white pt-15">
           <div className="md:col-span-2">
             <h1 className="md:text-5xl text-3xl font-bold text-white">
@@ -622,11 +623,19 @@ function Main() {
               />
             </form>
           </div>
-          <div className="md:col-span-4 mb-5 ">
+          <div className="md:col-span-4 mb-5 z-0">
             <MyMap />
           </div>
         </div>
       </section>
+
+      {modal && (
+        <Modal
+          setModal={setModal}
+          title={t("contact.modal_title")}
+          // text={t("contact.modal_text")}
+        />
+      )}
     </div>
   );
 }

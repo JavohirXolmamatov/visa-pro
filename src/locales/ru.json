@@ -83,6 +83,7 @@
     "surname_placeholder": "Фамилия",
     "phone_placeholder": "Телефон",
     "message_placeholder": "Комментарии",
-    "submit_button": "Отправить заявку"
+    "submit_button": "Отправить заявку",
+    "modal_title": "Сообщение успешно отправлено!"
   }
 }

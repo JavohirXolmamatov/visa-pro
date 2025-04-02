@@ -83,6 +83,7 @@
     "surname_placeholder": "Surname",
     "phone_placeholder": "Phone",
     "message_placeholder": "Comments",
-    "submit_button": "Submit Application"
+    "submit_button": "Submit Application",
+    "modal_title": "Successfuly sent message!"
   }
 }

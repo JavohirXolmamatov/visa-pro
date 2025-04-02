@@ -83,6 +83,7 @@
     "surname_placeholder": "Familiya",
     "phone_placeholder": "Telefon",
     "message_placeholder": "Izohlar",
-    "submit_button": "Ariza Yuborish"
+    "submit_button": "Ariza Yuborish",
+    "modal_title": "Xabar muvaffaqiyatli yuborildi!"
   }
 }
