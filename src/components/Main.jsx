@@ -167,7 +167,7 @@ function Main() {
           <div className="flex md:flex-row flex-col gap-8 mb-10">
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={backgroundImage}
@@ -187,7 +187,7 @@ function Main() {
             </div>
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={kanada}
@@ -207,7 +207,7 @@ function Main() {
             </div>
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={aqsh}
@@ -229,7 +229,7 @@ function Main() {
           <div className="flex md:flex-row flex-col  gap-8 mb-10">
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={buyuk}
@@ -249,7 +249,7 @@ function Main() {
             </div>
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={avstraliya}
@@ -269,7 +269,7 @@ function Main() {
             </div>
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={yangi}
@@ -291,7 +291,7 @@ function Main() {
           <div className="flex md:flex-row flex-col  gap-8 mb-10">
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={yapon}
@@ -311,7 +311,7 @@ function Main() {
             </div>
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={korea}
@@ -331,7 +331,7 @@ function Main() {
             </div>
             <div
               data-aos="zoom-in"
-              className="md:h-[340px] h-full md:w-[400px] w-[350px] rounded-t-3xl border-b-3 border-red-600"
+              className="md:h-[340px] h-full md:w-[400px] sm:w-[350px] rounded-t-3xl border-b-3 border-red-600"
             >
               <img
                 src={brazil}
