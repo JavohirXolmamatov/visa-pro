@@ -253,7 +253,7 @@ function Main() {
             >
               <img
                 src={avstraliya}
-                alt="img"
+                alt="img123"
                 className="h-[250px] w-full object-cover rounded-t-3xl"
               />
               <div className="flex items-center py-4">
